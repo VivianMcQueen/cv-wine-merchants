@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV Wine Merchants | Rare Wine Cellar in Camberwell</title>
+  <meta name="description" content="CV Wine Merchants is a boutique Camberwell wine cellar specialising in rare Burgundy, French and Italian wines, cellar advice, premium gifts and personal recommendations." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            wine: '#12080d',
+            wine2: '#260d17',
+            gold: '#d9b46c',
+            cream: '#f5ead6'
+          },
+          fontFamily: {
+            serif: ['Georgia', 'Times New Roman', 'serif'],
+            sans: ['Inter', 'ui-sans-serif', 'system-ui']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { background:#12080d; color:white; }
+    .hero-bg {
+      background:
+        radial-gradient(circle at 30% 20%, rgba(142,18,56,0.45), transparent 30%),
+        radial-gradient(circle at 80% 10%, rgba(217,180,108,0.20), transparent 28%),
+        linear-gradient(135deg,#12080d 0%,#260d17 48%,#080608 100%);
+    }
+    .grid-bg {
+      background-image:
+        linear-gradient(90deg, rgba(255,255,255,.06) 1px, transparent 1px),
+        linear-gradient(rgba(255,255,255,.04) 1px, transparent 1px);
+      background-size: 54px 54px;
+    }
+    .star { color:#d9b46c; }
+  </style>
+</head>
+<body class="font-sans selection:bg-gold selection:text-wine">
+  <header class="fixed left-0 right-0 top-0 z-50 border-b border-white/10 bg-wine/90 backdrop-blur-xl">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
+      <a href="#top" class="flex items-center gap-3">
+        <div class="flex h-11 w-11 items-center justify-center rounded-full border border-gold/50 bg-gold/10 font-serif text-xl font-bold text-gold">CV</div>
+        <div>
+          <div class="text-sm font-extrabold uppercase tracking-[0.22em]">CV Wine Merchants</div>
+          <div class="text-xs text-white/50">Rare wine cellar · Camberwell</div>
+        </div>
+      </a>
+      <nav class="hidden items-center gap-7 text-sm text-white/70 lg:flex">
+        <a class="hover:text-gold" href="#cellar">Cellar</a>
+        <a class="hover:text-gold" href="#services">Services</a>
+        <a class="hover:text-gold" href="#reviews">Reviews</a>
+        <a class="hover:text-gold" href="#visit">Visit</a>
+      </nav>
+      <a href="#consultation" class="rounded-full bg-white px-5 py-2.5 text-sm font-bold text-wine transition hover:bg-gold">Book a consultation</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="relative isolate min-h-screen px-5 pt-32 lg:px-8 hero-bg">
+      <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-wine to-transparent"></div>
+      <div class="relative mx-auto grid max-w-7xl items-center gap-14 pb-24 pt-14 lg:grid-cols-[1.05fr_0.95fr] lg:pt-20">
+        <div>
+          <div class="mb-7 inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/5 px-4 py-2 backdrop-blur">
+            <span class="star">★★★★★</span>
+            <span class="text-sm font-semibold text-white">5.0 from 19 Google reviews</span>
+            <span class="hidden text-sm text-white/45 sm:inline">· Hidden gem at Camberwell Junction</span>
+          </div>
+
+          <h1 class="font-serif max-w-4xl text-6xl font-extrabold leading-[0.92] tracking-[-0.055em] text-white sm:text-7xl lg:text-8xl">
+            Rare wine, selected with old-world conviction.
+          </h1>
+          <p class="mt-7 max-w-2xl text-lg leading-8 text-white/72 sm:text-xl">
+            CV Wine Merchants is a boutique Camberwell cellar for serious Burgundy hunters, French and Italian collectors, refined dinner hosts and anyone who wants a bottle chosen by someone who actually knows what they’re talking about.
+          </p>
+
+          <div class="mt-9 flex flex-col gap-4 sm:flex-row">
+            <a href="#consultation" class="inline-flex items-center justify-center gap-2 rounded-full bg-gold px-6 py-3 text-sm font-bold text-wine shadow-[0_18px_45px_rgba(217,180,108,0.2)] transition hover:bg-[#f1cc83]">
+              Find the right bottle →
+            </a>
+            <a href="#cellar" class="inline-flex items-center justify-center gap-2 rounded-full border border-white/20 bg-white/5 px-6 py-3 text-sm font-bold text-white transition hover:bg-white/10">
+              Explore the cellar →
+            </a>
+          </div>
+
+          <div class="mt-10 grid max-w-2xl grid-cols-3 gap-3 text-center sm:text-left">
+            <div class="rounded-3xl border border-white/10 bg-white/[0.04] p-4">
+              <div class="font-serif text-3xl font-bold text-gold">Rare</div>
+              <div class="mt-1 text-xs uppercase tracking-[0.16em] text-white/50">Burgundy</div>
+            </div>
+            <div class="rounded-3xl border border-white/10 bg-white/[0.04] p-4">
+              <div class="font-serif text-3xl font-bold text-gold">No</div>
+              <div class="mt-1 text-xs uppercase tracking-[0.16em] text-white/50">Lazy upsell</div>
+            </div>
+            <div class="rounded-3xl border border-white/10 bg-white/[0.04] p-4">
+              <div class="font-serif text-3xl font-bold text-gold">Local</div>
+              <div class="mt-1 text-xs uppercase tracking-[0.16em] text-white/50">Camberwell</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative">
+          <div class="relative overflow-hidden rounded-[2rem] border border-white/10 bg-[#1b0d12]/80 p-4 shadow-2xl shadow-black/40 backdrop-blur">
+            <div class="relative min-h-[560px] overflow-hidden rounded-[1.5rem] border border-white/10 bg-[linear-gradient(160deg,#2a111b,#0b0708)] p-7 grid-bg">
+              <div class="relative flex items-start justify-between">
+                <div>
+                  <p class="text-xs uppercase tracking-[0.3em] text-gold">Cellar note</p>
+                  <h2 class="font-serif mt-3 text-4xl font-bold leading-tight">The bottle should match the moment.</h2>
+                </div>
+                <div class="text-4xl">🍷</div>
+              </div>
+
+              <div class="relative mt-12 space-y-4">
+                <div class="rounded-2xl border border-gold/70 bg-gold/12 p-4"><div class="flex items-center justify-between gap-4"><span class="font-semibold text-white">I need a special bottle tonight</span><span class="text-gold">→</span></div></div>
+                <div class="rounded-2xl border border-white/10 bg-white/[0.04] p-4"><div class="flex items-center justify-between gap-4"><span class="font-semibold text-white">I’m building a cellar</span><span class="text-white/35">→</span></div></div>
+                <div class="rounded-2xl border border-white/10 bg-white/[0.04] p-4"><div class="flex items-center justify-between gap-4"><span class="font-semibold text-white">I want rare Burgundy</span><span class="text-white/35">→</span></div></div>
+                <div class="rounded-2xl border border-white/10 bg-white/[0.04] p-4"><div class="flex items-center justify-between gap-4"><span class="font-semibold text-white">I need a premium gift</span><span class="text-white/35">→</span></div></div>
+                <div class="rounded-2xl border border-white/10 bg-white/[0.04] p-4"><div class="flex items-center justify-between gap-4"><span class="font-semibold text-white">I want a tasting experience</span><span class="text-white/35">→</span></div></div>
+              </div>
+
+              <div class="relative mt-10 rounded-3xl border border-gold/25 bg-black/25 p-5">
+                <div class="flex items-center gap-3 text-gold"><span>✓</span><span class="text-sm font-bold uppercase tracking-[0.2em]">Recommended approach</span></div>
+                <p class="mt-4 text-sm leading-7 text-white/70">
+                  Start with producer, vintage, drinking window and the person you’re buying for. Then choose the bottle. Never the other way around.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="border-y border-white/10 bg-white/[0.03] px-5 py-5 lg:px-8">
+      <div class="mx-auto grid max-w-7xl gap-4 text-sm text-white/60 md:grid-cols-4">
+        <div>★ 5.0 Google rating</div>
+        <div>◆ Rare Burgundy focus</div>
+        <div>🍷 French & Italian range</div>
+        <div>⌖ Camberwell Junction</div>
+      </div>
+    </section>
+
+    <section id="cellar" class="px-5 py-24 lg:px-8">
+      <div class="mx-auto max-w-7xl">
+        <div class="max-w-3xl">
+          <div class="mb-5 inline-flex items-center gap-2 rounded-full border border-gold/25 bg-gold/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-gold">✦ The cellar</div>
+          <h2 class="font-serif text-5xl font-bold tracking-[-0.04em] sm:text-6xl">A boutique range with collector-level intent.</h2>
+          <p class="mt-6 text-lg leading-8 text-white/65">
+            CV Wine Merchants should sit against supermarket bottle shops, not beside them. This is not a shelf-and-price business. It is a trust, taste and provenance business.
+          </p>
+        </div>
+
+        <div class="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+          <article class="rounded-[2rem] border border-white/10 bg-white/[0.045] p-6">
+            <div class="mb-12 flex items-center justify-between"><span class="rounded-full bg-gold/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.2em] text-gold">Burgundy</span><span>🍷</span></div>
+            <h3 class="font-serif text-3xl font-bold leading-tight">Rare Burgundy Cellar</h3>
+            <p class="mt-4 text-sm leading-7 text-white/58">Premier Cru, Grand Cru and hard-to-find village bottles for collectors and serious drinkers.</p>
+            <div class="mt-6 flex flex-wrap gap-2"><span class="rounded-full border border-white/10 px-3 py-1 text-xs text-white/45">Pinot Noir</span><span class="rounded-full border border-white/10 px-3 py-1 text-xs text-white/45">Chardonnay</span><span class="rounded-full border border-white/10 px-3 py-1 text-xs text-white/45">Collector</span></div>
+          </article>
+
+          <article class="rounded-[2rem] border border-white/10 bg-white/[0.045] p-6">
+            <div class="mb-12 flex items-center justify-between"><span class="rounded-full bg-gold/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.2em] text-gold">France</span><span>🍷</span></div>
+            <h3 class="font-serif text-3xl font-bold leading-tight">French Icons</h3>
+            <p class="mt-4 text-sm leading-7 text-white/58">Champagne, Rhône, Loire and Bordeaux selected for provenance, condition and drinking window.</p>
+            <div class="mt-6 flex flex-wrap gap-2"><span class="rounded-full border border-white/10 px-3 py-1 text-xs text-white/45">Champagne</span><span class="rounded-full border border-white/10 px-3 py-1 text-xs text-white/45">Bordeaux</span><span class="rounded-full border border-white/10 px-3 py-1 text-xs text-white/45">Rhône</span></div>
+          </article>
+
+          <article class="rounded-[2rem] border border-white/10 bg-white/[0.045] p-6">
+            <div class="mb-12 flex items-center justify-between"><span class="rounded-full bg-gold/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.2em] text-gold">Italy</span><span>🍷</span></div>
+            <h3 class="font-serif text-3xl font-bold leading-tight">Italian Greats</h3>
+            <p class="mt-4 text-sm leading-7 text-white/58">Barolo, Brunello, Super Tuscan and regional discoveries with personality and structure.</p>
+            <div class="mt-6 flex flex-wrap gap-2"><span class="rounded-full border border-white/10 px-3 py-1 text-xs text-white/45">Barolo</span><span class="rounded-full border border-white/10 px-3 py-1 text-xs text-white/45">Brunello</span><span class="rounded-full border border-white/10 px-3 py-1 text-xs text-white/45">Nebbiolo</span></div>
+          </article>
+
+          <article class="rounded-[2rem] border border-white/10 bg-white/[0.045] p-6">
+            <div class="mb-12 flex items-center justify-between"><span class="rounded-full bg-gold/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.2em] text-gold">Australia</span><span>🍷</span></div>
+            <h3 class="font-serif text-3xl font-bold leading-tight">Local Excellence</h3>
+            <p class="mt-4 text-sm leading-7 text-white/58">Mornington Pinot, Yarra Valley Chardonnay and Australian bottles that punch well above their weight.</p>
+            <div class="mt-6 flex flex-wrap gap-2"><span class="rounded-full border border-white/10 px-3 py-1 text-xs text-white/45">Mornington</span><span class="rounded-full border border-white/10 px-3 py-1 text-xs text-white/45">Yarra Valley</span><span class="rounded-full border border-white/10 px-3 py-1 text-xs text-white/45">Pinot</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="bg-[#0d0609] px-5 py-24 lg:px-8">
+      <div class="mx-auto max-w-7xl">
+        <div class="grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
+          <div>
+            <div class="mb-5 inline-flex items-center gap-2 rounded-full border border-gold/25 bg-gold/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-gold">✦ Why people come here</div>
+            <h2 class="font-serif text-5xl font-bold tracking-[-0.04em] sm:text-6xl">A wine merchant should do more than sell bottles.</h2>
+          </div>
+          <p class="text-lg leading-8 text-white/65">
+            The strongest conversion angle is service: knowledge, access, listening, and restraint. Customers already say CV doesn’t push the expensive bottle for the sake of it. That is commercial gold — and most wine retailers completely waste it.
+          </p>
+        </div>
+
+        <div class="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+          <div class="rounded-[2rem] border border-white/10 bg-[#170b10] p-6"><div class="mb-8 text-3xl text-gold">◆</div><h3 class="text-xl font-extrabold">Rare Bottle Sourcing</h3><p class="mt-4 text-sm leading-7 text-white/58">A discreet, informed search for Burgundy, French and Italian bottles that are difficult to find elsewhere.</p></div>
+          <div class="rounded-[2rem] border border-white/10 bg-[#170b10] p-6"><div class="mb-8 text-3xl text-gold">✉</div><h3 class="text-xl font-extrabold">Personal Recommendations</h3><p class="mt-4 text-sm leading-7 text-white/58">Tell us the meal, occasion, palate or budget. We’ll guide the bottle without the lazy upsell.</p></div>
+          <div class="rounded-[2rem] border border-white/10 bg-[#170b10] p-6"><div class="mb-8 text-3xl text-gold">♛</div><h3 class="text-xl font-extrabold">Cellar Building</h3><p class="mt-4 text-sm leading-7 text-white/58">Build a drinkable, collectable cellar across regions, vintages and price points with proper intent.</p></div>
+          <div class="rounded-[2rem] border border-white/10 bg-[#170b10] p-6"><div class="mb-8 text-3xl text-gold">◷</div><h3 class="text-xl font-extrabold">Private Tastings</h3><p class="mt-4 text-sm leading-7 text-white/58">Intimate tasting experiences for collectors, dinner parties, corporate gifting and serious wine lovers.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="px-5 py-24 lg:px-8">
+      <div class="mx-auto max-w-7xl">
+        <div class="grid gap-12 lg:grid-cols-[0.8fr_1.2fr]">
+          <div>
+            <div class="mb-5 inline-flex items-center gap-2 rounded-full border border-gold/25 bg-gold/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-gold">✦ Proof</div>
+            <h2 class="font-serif text-5xl font-bold tracking-[-0.04em] sm:text-6xl">A small shop with an unusually loyal reputation.</h2>
+            <div class="mt-8 rounded-[2rem] border border-gold/25 bg-gold/10 p-6">
+              <p class="star text-xl">★★★★★</p>
+              <p class="mt-4 font-serif text-4xl font-bold text-gold">5.0 / 5.0</p>
+              <p class="mt-2 text-sm uppercase tracking-[0.2em] text-white/45">19 Google reviews</p>
+            </div>
+          </div>
+
+          <div class="grid gap-5 md:grid-cols-2">
+            <figure class="rounded-[2rem] border border-white/10 bg-white/[0.045] p-6"><p class="star">★★★★★</p><blockquote class="mt-5 text-base leading-7 text-white/76">“A hidden gem at Camberwell Junction: a wine cellar thoughtfully transformed into an intimate wine bar. The wine list is extensive and seriously impressive.”</blockquote><figcaption class="mt-6 border-t border-white/10 pt-5"><div class="font-bold">Tony</div><div class="mt-1 text-xs uppercase tracking-[0.2em] text-white/38">Google review</div></figcaption></figure>
+            <figure class="rounded-[2rem] border border-white/10 bg-white/[0.045] p-6"><p class="star">★★★★★</p><blockquote class="mt-5 text-base leading-7 text-white/76">“One of the largest ranges of Burgundy, French and Italian wines. Nick is very knowledgeable and helpful.”</blockquote><figcaption class="mt-6 border-t border-white/10 pt-5"><div class="font-bold">Kin Kin</div><div class="mt-1 text-xs uppercase tracking-[0.2em] text-white/38">Google Local Guide</div></figcaption></figure>
+            <figure class="rounded-[2rem] border border-white/10 bg-white/[0.045] p-6"><p class="star">★★★★★</p><blockquote class="mt-5 text-base leading-7 text-white/76">“Best wine shop in the area. Nick the owner is incredibly knowledgeable and always helpful. 100% recommend.”</blockquote><figcaption class="mt-6 border-t border-white/10 pt-5"><div class="font-bold">James Cummings</div><div class="mt-1 text-xs uppercase tracking-[0.2em] text-white/38">Google review</div></figcaption></figure>
+            <figure class="rounded-[2rem] border border-white/10 bg-white/[0.045] p-6"><p class="star">★★★★★</p><blockquote class="mt-5 text-base leading-7 text-white/76">“They listened to what we said and didn’t try to upsell. The Pinot was fabulous. Our new favourite wine haunt.”</blockquote><figcaption class="mt-6 border-t border-white/10 pt-5"><div class="font-bold">Tram Tastic</div><div class="mt-1 text-xs uppercase tracking-[0.2em] text-white/38">Google review</div></figcaption></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="consultation" class="relative px-5 py-24 lg:px-8">
+      <div class="mx-auto grid max-w-7xl overflow-hidden rounded-[2.4rem] border border-white/10 bg-[#1a0b10] shadow-2xl shadow-black/30 lg:grid-cols-[0.95fr_1.05fr]">
+        <div class="p-8 sm:p-12 lg:p-16">
+          <div class="mb-5 inline-flex items-center gap-2 rounded-full border border-gold/25 bg-gold/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-gold">✦ Conversion point</div>
+          <h2 class="font-serif text-5xl font-bold leading-tight tracking-[-0.04em]">Tell us what you’re looking for. Leave with the right bottle.</h2>
+          <p class="mt-6 text-lg leading-8 text-white/65">
+            This is the primary website action: a guided request. It captures intent, budget and occasion — far more valuable than a generic “contact us” form.
+          </p>
+          <div class="mt-10 space-y-4 text-sm text-white/68">
+            <div>✓ Recommendations based on palate, occasion and budget.</div>
+            <div>✓ Great for gifts, dinner parties, cellar additions and rare-bottle requests.</div>
+            <div>✓ No pressure, no supermarket energy, no nonsense.</div>
+          </div>
+        </div>
+
+        <form class="border-t border-white/10 bg-[#0e070a] p-8 sm:p-12 lg:border-l lg:border-t-0 lg:p-16" onsubmit="event.preventDefault(); document.getElementById('form-confirm').classList.remove('hidden');">
+          <div class="grid gap-4 sm:grid-cols-2">
+            <label class="block"><span class="mb-2 block text-xs font-bold uppercase tracking-[0.2em] text-white/45">Name</span><input required class="w-full rounded-2xl border border-white/10 bg-white/[0.04] px-4 py-3 text-white outline-none transition placeholder:text-white/25 focus:border-gold" placeholder="Your name" /></label>
+            <label class="block"><span class="mb-2 block text-xs font-bold uppercase tracking-[0.2em] text-white/45">Phone or email</span><input required class="w-full rounded-2xl border border-white/10 bg-white/[0.04] px-4 py-3 text-white outline-none transition placeholder:text-white/25 focus:border-gold" placeholder="Best contact" /></label>
+          </div>
+          <label class="mt-4 block"><span class="mb-2 block text-xs font-bold uppercase tracking-[0.2em] text-white/45">What are you after?</span><select class="w-full rounded-2xl border border-white/10 bg-white/[0.04] px-4 py-3 text-white outline-none transition focus:border-gold"><option class="bg-wine">I need a special bottle tonight</option><option class="bg-wine">I’m building a cellar</option><option class="bg-wine">I want rare Burgundy</option><option class="bg-wine">I need a premium gift</option><option class="bg-wine">I want a tasting experience</option></select></label>
+          <div class="mt-4 grid gap-4 sm:grid-cols-2">
+            <label class="block"><span class="mb-2 block text-xs font-bold uppercase tracking-[0.2em] text-white/45">Budget</span><select class="w-full rounded-2xl border border-white/10 bg-white/[0.04] px-4 py-3 text-white outline-none transition focus:border-gold"><option class="bg-wine">Under $100</option><option class="bg-wine">$100–$250</option><option class="bg-wine">$250–$500</option><option class="bg-wine">$500+</option><option class="bg-wine">Collector / allocation request</option></select></label>
+            <label class="block"><span class="mb-2 block text-xs font-bold uppercase tracking-[0.2em] text-white/45">Timing</span><select class="w-full rounded-2xl border border-white/10 bg-white/[0.04] px-4 py-3 text-white outline-none transition focus:border-gold"><option class="bg-wine">Today</option><option class="bg-wine">This week</option><option class="bg-wine">This month</option><option class="bg-wine">Researching only</option></select></label>
+          </div>
+          <label class="mt-4 block"><span class="mb-2 block text-xs font-bold uppercase tracking-[0.2em] text-white/45">Notes</span><textarea rows="5" class="w-full rounded-2xl border border-white/10 bg-white/[0.04] px-4 py-3 text-white outline-none transition placeholder:text-white/25 focus:border-gold" placeholder="Meal, occasion, favourite regions, bottles you already like, or the person you’re buying for."></textarea></label>
+          <button class="mt-6 flex w-full items-center justify-center gap-2 rounded-full bg-gold px-6 py-4 text-sm font-extrabold text-wine transition hover:bg-[#f1cc83]">Request a recommendation →</button>
+          <p id="form-confirm" class="hidden mt-4 rounded-2xl border border-gold/30 bg-gold/10 p-4 text-sm text-[#f1cc83]">Form interaction demo: wire this to email, CRM, Shopify, Square, Klaviyo or a booking system before launch.</p>
+        </form>
+      </div>
+    </section>
+
+    <section id="visit" class="px-5 pb-24 lg:px-8">
+      <div class="mx-auto grid max-w-7xl gap-6 lg:grid-cols-[1.1fr_0.9fr]">
+        <div class="rounded-[2rem] border border-white/10 bg-white/[0.045] p-8 sm:p-10">
+          <div class="mb-5 inline-flex items-center gap-2 rounded-full border border-gold/25 bg-gold/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-gold">✦ Visit</div>
+          <h2 class="font-serif text-5xl font-bold tracking-[-0.04em]">A proper local cellar. Not a bottle warehouse.</h2>
+          <p class="mt-6 max-w-2xl text-lg leading-8 text-white/65">
+            Use this section for verified address, phone, opening hours, Google Maps and booking links. Current trading hours were not supplied, so this draft avoids publishing unverified details.
+          </p>
+          <div class="mt-8 grid gap-4 sm:grid-cols-2">
+            <div class="rounded-3xl border border-white/10 bg-black/20 p-5"><div class="mb-4 text-gold">⌖</div><div class="font-bold">Camberwell Junction, Melbourne</div><div class="mt-1 text-sm text-white/45">Add exact street address</div></div>
+            <div class="rounded-3xl border border-white/10 bg-black/20 p-5"><div class="mb-4 text-gold">◷</div><div class="font-bold">By visit or appointment</div><div class="mt-1 text-sm text-white/45">Add verified trading hours</div></div>
+            <div class="rounded-3xl border border-white/10 bg-black/20 p-5"><div class="mb-4 text-gold">☎</div><div class="font-bold">Add verified phone</div><div class="mt-1 text-sm text-white/45">Replace before launch</div></div>
+            <div class="rounded-3xl border border-white/10 bg-black/20 p-5"><div class="mb-4 text-gold">✉</div><div class="font-bold">Add verified email</div><div class="mt-1 text-sm text-white/45">Replace before launch</div></div>
+          </div>
+        </div>
+
+        <div class="rounded-[2rem] border border-gold/25 bg-gold/10 p-8 sm:p-10">
+          <div class="text-3xl text-gold">⌕</div>
+          <h3 class="font-serif mt-8 text-4xl font-bold">Launch checklist</h3>
+          <ul class="mt-6 space-y-4 text-sm leading-6 text-white/68">
+            <li>✓ Add verified phone, address, opening hours and Google Maps link.</li>
+            <li>✓ Connect the recommendation form to email or a CRM.</li>
+            <li>✓ Add professional photography of the cellar, owner, shelves and hero bottles.</li>
+            <li>✓ Add responsible service messaging and 18+ compliance notices.</li>
+          </ul>
+          <div class="mt-8 rounded-3xl border border-white/10 bg-black/20 p-5 text-sm text-white/58">
+            18+ only. Enjoy responsibly. Final site should comply with Victorian liquor licensing, advertising and online sales requirements before publishing.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10 px-5 py-10 lg:px-8">
+    <div class="mx-auto flex max-w-7xl flex-col gap-5 text-sm text-white/45 sm:flex-row sm:items-center sm:justify-between">
+      <div>© 2026 CV Wine Merchants. Boutique wine merchant in Camberwell.</div>
+      <div class="flex gap-4">
+        <a class="hover:text-gold" href="#consultation">Recommendation request</a>
+        <a class="hover:text-gold" href="#visit">Visit</a>
+        <a class="hover:text-gold" href="#top">Back to top</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
